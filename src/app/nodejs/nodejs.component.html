@@ -1,0 +1,17 @@
+<table border="1"
+       cellpadding="10px"
+       cellspacing="10px"
+       align="center">
+    <thead style="background-color: brown;">
+        <tr>
+            <th>SNO</th>
+            <th>TOPIC</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let x of result">
+            <td>{{x.sno}}</td>
+            <td>{{x.topic}}</td>
+        </tr>
+    </tbody>
+</table>
